@@ -1,7 +1,11 @@
 require 'pry'
 def unsafe?(speed)
-#binding.pry
-speed > 60
+  #binding.pry
+  if speed > 60
+    TRUE
+  elsif speed < 40
+    TRUE
+end
 end
 
 
